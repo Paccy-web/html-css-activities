@@ -1,4 +1,27 @@
 body {
-    background-color: aqua;
-    color: black;
+    font-family: Arial, sans-serif;
+    background: gray
 }
+.tab{
+    width: 150px;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+h1{
+    color: aqua;
+}
+main{
+    width: 730px;
+    padding: 20px 20px;
+}
+input{
+    padding: 2px;
+    height: 20px;
+    margin-top: 20px;
+}
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
